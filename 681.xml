@@ -9,10 +9,12 @@
             <publicationStmt>
                 <authority>Grammateus Project</authority>
                 <idno type="TM">681</idno>
-				<idno type="hgv">681</idno>
-				<idno type="ddb-hybrid">p.cair.zen;1;59021</idno>
+		<idno type="hgv">681</idno>
+		<idno type="ddb-hybrid">p.cair.zen;1;59021</idno>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+			    Attribution 4.0 International (CC BY 4.0)
+		    </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -22,11 +24,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-									<dimensions unit="cm">
-										<width/>
-										<height/>
-									</dimensions>
-								</support>
+				    <dimensions unit="cm">
+					<width/>
+					<height/>
+				    </dimensions>
+				</support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" n="recto"><!-- several layouts elements if recto/verso are recorded -->
@@ -51,7 +53,7 @@
                                     
                                     <!-- division into sections -->
                                     
-								</layout>
+				</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -77,7 +79,6 @@
         <body>
             <div xml:lang="grc" type="edition" xml:space="preserve">
                 <!-- text: get from papyri.info -->
-                
             </div>
         </body>
     </text>
