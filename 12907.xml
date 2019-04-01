@@ -9,8 +9,13 @@
             <publicationStmt>
                 <authority>Grammateus Project</authority>
                 <idno type="TM">12907</idno>
-				<idno type="hgv">12907</idno>
-				<idno type="ddb-hybrid">p.ryl;2;112A</idno>
+		<idno type="hgv">12907</idno>
+		<idno type="ddb-hybrid">p.ryl;2;112A</idno>
+		<availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+			    Attribution 4.0 International (CC BY 4.0)
+		    </licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -19,11 +24,11 @@
                         <objectDesc>
                             <supportDesc>
                                 <support ana="authority-lists.xml#fv">
-									<dimensions unit="cm">
-										<width>11.9</width>
-										<height>18.5</height>
-									</dimensions>
-								</support>
+				    <dimensions unit="cm">
+					<width>11.9</width>
+					<height>18.5</height>
+				    </dimensions>
+				</support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
@@ -36,30 +41,30 @@
                                         <dim n="right"></dim>
                                     </dimensions>
                                     <!-- eisthesis/ekthesis -->
-									<ab type="ekthesis">
-									    <locus n="1"/>
-									    <locus n="2"/>
-									</ab>
+				    <ab type="ekthesis">
+					<locus n="1"/>
+					<locus n="2"/>
+				    </ab>
                                     <!-- blank space in text -->
-									<ab type="blank">
-									    <locus from="12" to="13"/><!-- lines between which blank space appears -->
-									</ab>
+				    <ab type="blank">
+				        <locus from="12" to="13"/><!-- lines between which blank space appears -->
+				    </ab>
                                     <!-- division into sections -->
-									<ab type="section">
-										<locus corresp="#m1" xml:id="sectionA" from="1" to="8"/>
-										<locus corresp="#m2" xml:id="sectionB" from="9" to="10"/>
-										<locus corresp="#m3" xml:id="sectionC" from="11" to="11"/>
-										<locus corresp="#m1" xml:id="sectionD" from="12" to="14"/>
-									</ab>
-								</layout>
+				    <ab type="section">
+					<locus corresp="#m1" xml:id="sectionA" from="1" to="8"/>
+					<locus corresp="#m2" xml:id="sectionB" from="9" to="10"/>
+					<locus corresp="#m3" xml:id="sectionC" from="11" to="11"/>
+					<locus corresp="#m1" xml:id="sectionD" from="12" to="14"/>
+				    </ab>
+				</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <!-- scribe attribute is a rare occurrence (only in libelli)
-                                 it would be correlated to Meyer identification.
+                            <!-- scribe attribute is a rare occurrence
+                                 it would be correlated to Meyer identification
                             -->
                             <handNote xml:id="m1" scribeRef="auhtority-lists.xml#S03" corresp="#sectionA #sectionD"></handNote>
-							<handNote xml:id="m2" scribeRef="auhtority-lists.xml#S01" corresp="#sectionB"></handNote>
+			    <handNote xml:id="m2" scribeRef="auhtority-lists.xml#S01" corresp="#sectionB"></handNote>
                             <handNote xml:id="m3" scribeRef="auhtority-lists.xml#S02" corresp="#sectionC"></handNote>
                         </handDesc>
                     </physDesc>
@@ -80,7 +85,6 @@
         <body>
             <div xml:lang="grc" type="edition" xml:space="preserve">
                 <!-- text: get from papyri.info -->
-                
             </div>
         </body>
     </text>
