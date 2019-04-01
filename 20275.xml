@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>p.kell.1.8</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Grammateus Project</authority>
+                <idno type="TM">20275</idno>
+				<idno type="hgv">20275</idno>
+				<idno type="ddb-hybrid">p.kell;1;8</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+									<dimensions unit="cm">
+										<width/>
+										<height/>
+									</dimensions>
+								</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">
+                                    <!-- space between text and edge of document -->
+                                    <dimensions type="margin" unit="cm">                                        
+                                        <dim n="top"></dim>
+                                        <dim n="bottom"></dim>
+                                        <dim n="left"></dim>
+                                        <dim n="right"></dim>
+                                    </dimensions>
+                                    <!-- eisthesis/ekthesis -->
+                                    
+                                    <!-- blank space in text -->
+                                    
+                                    <!-- division into sections -->
+									<ab type="section">
+										<locus corresp="#m1" xml:id="sectionA" ana="authority-lists.xml#greetings" from="1" to="3"/>
+										<locus corresp="#m1" xml:id="sectionB" ana="authority-lists.xml#body" from="3" to="12"/>
+										<locus corresp="#m1" xml:id="sectionC" ana="authority-lists.xml#date" from="13" to="13"/>
+										<locus corresp="#m2" xml:id="sectionD" ana="authority-lists.xml#signature" from="14" to="17"/>
+									    <locus corresp="#m3" xml:id="sectionE" ana="authority-lists.xml#signature" from="18" to="18"/>
+									    <locus corresp="#m4" xml:id="sectionF" ana="authority-lists.xml#signature" from="19" to="19"/>
+									</ab>
+								</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="m1" corresp="#sectionA #sectionB #sectionC"></handNote>
+							<handNote xml:id="m2" corresp="#sectionD"></handNote>
+                            <handNote xml:id="m3" corresp="#sectionE"></handNote>
+                            <handNote xml:id="m4" corresp="#sectionF"></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <!-- historical information : get from papyri.info -->
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 9 
+                <ref>http://www.stoa.org/epidoc/gl/9/</ref>
+            </p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="authority-lists.xml#EN" when="2019-03-19">Record created</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile></facsimile>-->
+    <text>
+        <body>
+            <div xml:lang="grc" type="edition" xml:space="preserve">
+                <!-- text: get from papyri.info -->
+                
+            </div>
+        </body>
+    </text>
+</TEI>

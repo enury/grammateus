@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>p.cair.zen.1.59021</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Grammateus Project</authority>
+                <idno type="TM">681</idno>
+				<idno type="hgv">681</idno>
+				<idno type="ddb-hybrid">p.cair.zen;1;59021</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+									<dimensions unit="cm">
+										<width/>
+										<height/>
+									</dimensions>
+								</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2" n="recto"><!-- several layouts elements if recto/verso are recorded -->
+                                    <!-- space between text and edge of document -->
+                                    <dimensions type="margin" unit="cm">                                        
+                                        <dim n="top">1</dim>
+                                        <dim n="bottom">1</dim>
+                                        <dim n="left">1</dim>
+                                        <dim n="right">1</dim>
+                                    </dimensions>
+                                    <!-- space between columns -->
+                                    <dimensions type="intercolumn" unit="cm">
+                                        <width n="1"></width>
+                                        <width></width><!-- if more than 2 columns, add more 
+                                            see also https://github.com/BetaMasaheft/guidelines/blob/8f2e3b7da446e0d50c4890d6068b5fa72d01c112/pages/layout.xml -->
+                                        <!-- aleternatively - record size of written text surface? -->
+                                    </dimensions>
+                                    
+                                    <!-- eisthesis/ekthesis -->
+                                    
+                                    <!-- blank space in text -->
+                                    
+                                    <!-- division into sections -->
+                                    
+								</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <!-- only one hand, no hanDesc in papyri.info -->
+                            <handNote/>
+                        </handDesc>
+                    </physDesc>
+                    <!-- historical information : get from papyri.info -->
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 9 
+                <ref>http://www.stoa.org/epidoc/gl/9/</ref>
+            </p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="EN" when="2019-03-19">Record created</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--<facsimile></facsimile>-->
+    <text>
+        <body>
+            <div xml:lang="grc" type="edition" xml:space="preserve">
+                <!-- text: get from papyri.info -->
+                
+            </div>
+        </body>
+    </text>
+</TEI>

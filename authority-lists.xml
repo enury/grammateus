@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- example: mpese people.xml (this list is in every document) -->
+                <title>Authority Lists for the Grammateus project</title>
+                <respStmt xml:id="PS">
+                    <name>Paul Schubert</name>
+                    <resp>Principal Investigator</resp>
+                </respStmt>
+                <respStmt xml:id="SF">
+                    <name>Susan Fogarty</name>
+                    <resp>Papyrologist</resp>
+                </respStmt>
+                <respStmt xml:id="EN">
+                    <name>Elisa Nury</name>
+                    <resp>Digital Humanities specialist</resp>
+                </respStmt>
+                <respStmt xml:id="LV">
+                    <name>Lavinia Ferreti</name>
+                    <resp>PhD Student</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Grammateus Project</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc><ab/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- example: EFES authority lists -->
+            <div type="commentary">
+                
+                <!-- PS: not a priority -->
+                <listPerson type="scribes">
+                    <head>List of scribes from the Dacian Libelli</head>
+                    <person xml:id="S01">
+                        <p>S/O Aurelius Serenus.</p><!-- Aurelios Serenos = TM 291714 -->
+                    </person>
+                    <person xml:id="S02">
+                        <persName>Hermas</persName><!-- TM 179518 -->
+                    </person>
+                    <person xml:id="S03">
+                        <p>No reference.</p>
+                    </person>
+                    <person xml:id="S04">
+                        <p>Meyer: scribe C.</p>
+                    </person>
+                    <person xml:id="S05">
+                        <p>Meyer: scribe B.</p>
+                    </person>
+                    <person xml:id="S06">
+                        <p>Meyer: scribe E.</p>
+                    </person>
+                    <person xml:id="S07">
+                        <p>No reference.</p>
+                    </person>
+                    <person xml:id="S08">
+                        <p>No reference. <note resp="#SF">Meyer equates this scribe to his scribe C but it is not the same handwriting.</note></p>
+                    </person>
+                    <person xml:id="S09">
+                        <persName>Aurelios Eirenaios</persName>
+                    </person>
+                    <person xml:id="S10">
+                        <p>Meyer: scribe D.</p>
+                    </person>
+                    <person xml:id="S11">
+                        <p>S/O Aurelius Sabeinos.</p>
+                    </person>
+                </listPerson>
+                
+                <list type="support">
+                    <!-- SF: if the fiber is vertical for one side, by default it will horizontal on the other side. 
+                             this is independent of writing direction (with/against fiber).
+                             recto/verso not always a valid distinction for some papyri.
+                    -->
+                    <item xml:id="fv">Fiber direction: vertical</item>
+                    <item xml:id="fh">Fiber direction: horizontal</item>
+                </list>
+                
+                <list type="layout">
+                    <item xml:id="greetings">Text section: sender and receiver information. Usually combined in a single greeting sentence.</item>
+                    <item xml:id="body">Text section: body of text.</item>
+                    <item xml:id="date">Text section: date.</item>
+                    <item xml:id="signature">Text section: signature.</item>
+                    <item xml:id="subscription">Text section: subscription.</item>
+                </list>
+                
+            </div>
+            
+            <div type="bibliography">
+                <!-- add Meyer for instance -->
+            </div>
+        </body>
+    </text>
+</TEI>

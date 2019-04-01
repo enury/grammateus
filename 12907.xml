@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.0/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>p.ryl.2.112A</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Grammateus Project</authority>
+                <idno type="TM">12907</idno>
+				<idno type="hgv">12907</idno>
+				<idno type="ddb-hybrid">p.ryl;2;112A</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier></msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support ana="authority-lists.xml#fv">
+									<dimensions unit="cm">
+										<width>11.9</width>
+										<height>18.5</height>
+									</dimensions>
+								</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">
+                                    <!-- space between text and edge of document -->
+                                    <!-- alternative encoding dimension vs. ab -->
+                                    <dimensions type="margin" unit="cm">                                        
+                                        <dim n="top"></dim>
+                                        <dim n="bottom"></dim>
+                                        <dim n="left"></dim>
+                                        <dim n="right"></dim>
+                                    </dimensions>
+                                    <!-- eisthesis/ekthesis -->
+									<ab type="ekthesis">
+									    <locus n="1"/>
+									    <locus n="2"/>
+									</ab>
+                                    <!-- blank space in text -->
+									<ab type="blank">
+									    <locus from="12" to="13"/><!-- lines between which blank space appears -->
+									</ab>
+                                    <!-- division into sections -->
+									<ab type="section">
+										<locus corresp="#m1" xml:id="sectionA" from="1" to="8"/>
+										<locus corresp="#m2" xml:id="sectionB" from="9" to="10"/>
+										<locus corresp="#m3" xml:id="sectionC" from="11" to="11"/>
+										<locus corresp="#m1" xml:id="sectionD" from="12" to="14"/>
+									</ab>
+								</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <!-- scribe attribute is a rare occurrence (only in libelli)
+                                 it would be correlated to Meyer identification.
+                            -->
+                            <handNote xml:id="m1" scribeRef="auhtority-lists.xml#S03" corresp="#sectionA #sectionD"></handNote>
+							<handNote xml:id="m2" scribeRef="auhtority-lists.xml#S01" corresp="#sectionB"></handNote>
+                            <handNote xml:id="m3" scribeRef="auhtority-lists.xml#S02" corresp="#sectionC"></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <!-- historical information : get from papyri.info -->
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema version 9 
+                <ref>http://www.stoa.org/epidoc/gl/9/</ref>
+            </p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="auhtority-lists.xml#EN" when="2019-03-19">Record created</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="grc" type="edition" xml:space="preserve">
+                <!-- text: get from papyri.info -->
+                
+            </div>
+        </body>
+    </text>
+</TEI>
