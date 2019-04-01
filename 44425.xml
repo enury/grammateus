@@ -9,10 +9,12 @@
             <publicationStmt>
                 <authority>Grammateus Project</authority>
                 <idno type="TM">44425</idno>
-				<idno type="hgv">44425</idno>
-				<idno type="ddb-hybrid">p.lips;2;152</idno>
+		<idno type="hgv">44425</idno>
+		<idno type="ddb-hybrid">p.lips;2;152</idno>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+			    Attribution 4.0 International (CC BY 4.0)
+		    </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -21,12 +23,13 @@
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
+				<!-- fibre direction -->
                                 <support ana="authority-lists.xml#fh">
-									<dimensions unit="cm">
-										<width>7</width>
-										<height>20.5</height>
-									</dimensions>
-								</support>
+				    <dimensions unit="cm">
+				        <width>7</width>
+				        <height>20.5</height>
+				</dimensions>
+				</support>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
@@ -39,28 +42,28 @@
                                         <dimensions n="right" extent="unknown"></dimensions>
                                     </ab>
                                     <!-- eisthesis (indent) / ekthesis (outdent) -->
-									<ab type="eisthesis">
-									    <locus n="14"/>
-									    <locus n="15"/>
-									    <locus n="16"/>
-									    <locus n="22"/>
-									</ab>
+				    <ab type="eisthesis">
+					<locus n="14"/>
+					<locus n="15"/>
+					<locus n="16"/>
+					<locus n="22"/>
+				    </ab>
                                     <!-- division into sections -->
-									<ab type="section">
-										<locus corresp="#m1" xml:id="sectionA" from="1" to="15"/>
-										<locus corresp="#m2" xml:id="sectionB" from="16" to="17"/>
-										<locus xml:id="sectionC">missing</locus>
-										<locus corresp="#m1" xml:id="sectionD" from="18" to="22"/>
-									</ab>
-								</layout>
+				    <ab type="section">
+				        <locus corresp="#m1" xml:id="sectionA" from="1" to="15"/>
+					<locus corresp="#m2" xml:id="sectionB" from="16" to="17"/>
+					<locus xml:id="sectionC">missing</locus>
+					<locus corresp="#m1" xml:id="sectionD" from="18" to="22"/>
+				    </ab>
+				</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <!-- scribe attribute is a rare occurrence (only in libelli)
-                                 it would be correlated to Meyer identification.
+                            <!-- scribe attribute is a rare occurrence
+                                 it would be correlated to Meyer identification
                             -->
                             <handNote xml:id="m1" scribeRef="authority-lists.xml#S07" corresp="#sectionA #sectionD"></handNote>
-							<handNote xml:id="m2" scribeRef="authority-lists.xml#S01" corresp="#sectionB"></handNote>
+			    <handNote xml:id="m2" scribeRef="authority-lists.xml#S01" corresp="#sectionB"></handNote>
                         </handDesc>
                     </physDesc>
                     <!-- historical information : get from papyri.info -->
@@ -78,8 +81,8 @@
     </teiHeader>
     <facsimile>
         <graphic  url="https://papyri.uni-leipzig.de/rsc/viewer/UBLPapyri_derivate_00001520/UBLPapyri_Lips587R_300.jpg">
-			<desc>recto</desc>
-		</graphic>
+	    <desc>recto</desc>
+	</graphic>
     </facsimile>
     <text>        
         <body> 
