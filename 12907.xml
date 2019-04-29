@@ -81,6 +81,17 @@
                 <ref>http://www.stoa.org/epidoc/gl/9/</ref>
             </p>
         </encodingDesc>
+	<profileDesc>
+	    <!-- type/subtype of document -->
+            <textClass>
+		<keywords n="text-type">
+		    <term>receipt</term>
+		</keywords>
+		<keywords n="text-subtype">
+		    <term>certificate</term>
+		</keywords>
+	    </textClass>
+	</profileDesc>
         <revisionDesc>
             <change who="auhtority-lists.xml#EN" when="2019-03-19">Record created</change>
         </revisionDesc>
