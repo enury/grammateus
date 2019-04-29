@@ -67,6 +67,10 @@
 			    <handNote xml:id="m2" scribeRef="auhtority-lists.xml#S01" corresp="#sectionB"></handNote>
                             <handNote xml:id="m3" scribeRef="auhtority-lists.xml#S02" corresp="#sectionC"></handNote>
                         </handDesc>
+			<!-- record presence of seal/stamp -->
+			<sealDesc>
+		            <p>Yes/No</p>
+			</sealDesc>
                     </physDesc>
                     <!-- historical information : get from papyri.info -->
                 </msDesc>
